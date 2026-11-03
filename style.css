@@ -38,19 +38,17 @@ div {
     padding: 2px;
 }
 
-/* Vista de tableta */
 @media screen and (min-width: 772px) {
     div {
-        display: inline-block;
         width: 45vw;
+        display: inline-block;
     }
 
-    div img {
+    img {
         max-height: 30vh;
     }
 }
 
-/* Vista de pantalla grande */
 @media screen and (min-width: 998px) {
     div {
         width: 30vw;
