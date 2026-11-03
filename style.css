@@ -9,7 +9,7 @@ h1 {
 }
 
 a {
-    color: #000;
+    color: #000000;
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
@@ -29,6 +29,7 @@ div img {
     height: 150px;
     display: block;
     margin: auto;
+    border: 5px solid black;
 }
 
 div {
@@ -37,7 +38,12 @@ div {
     margin: 5px;
     padding: 2px;
 }
+
+
+/* VISTA TABLETA - DESDE 772px */
+
 @media screen and (min-width: 772px) {
+
     div {
         width: 45vw;
         display: inline-block;
@@ -46,10 +52,16 @@ div {
     img {
         max-height: 30vh;
     }
+
 }
 
+
+/* VISTA PANTALLA GRANDE - DESDE 998px */
+
 @media screen and (min-width: 998px) {
+
     div {
         width: 30vw;
     }
+
 }
